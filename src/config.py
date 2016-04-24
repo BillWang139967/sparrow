@@ -79,9 +79,8 @@ if __name__ == '__main__':
     #print globals()
     print "haha"
     print 
-    print  type(warning_rules[0])
-    print  warning_counters
-    print  warning_senders
-    print  type(counter_logger)
+    print  "#warning_counters" ,warning_counters
+    print  "#warning_senders" , warning_senders
+    print  counter_logger
 
 
